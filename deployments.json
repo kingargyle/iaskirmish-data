@@ -2482,6 +2482,300 @@
           }
         ]
       }
+    },
+    {
+      "deployment": {
+        "iaspecName": "gideonargus",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Gideon%20Argus.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Gideon Argus",
+        "subtitle": "",
+        "deploymentCost": 3,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "leader"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "focus",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "rebelhighcommand",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Rebel%20High%20Command.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Rebel High Command",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "furyofkashyyk",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Wookie%20Warriors/Fury%20of%20Kashyyyk.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Fury of Kashyyk",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "c3po",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/R2-D2%20and%20C-3PO/C-3P0.png",
+        "faction": "rebel",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "C-3P0",
+        "subtitle": "Human Cyborg Relations",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "droid"
+        ],
+        "health": 4,
+        "speed": 3,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "none"
+        }
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "alliancesmuggler",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Alliance%20Smuggler/Alliance%20Smuggler.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Alliance Smuggler",
+        "subtitle": "",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 3,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "green",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "stun",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "onadiplomaticmission",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Leia%20Organa/On%20A%20Diplomatic%20Mission.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "On a Diplomatic Mission",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "balanceoftheforce",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Balance%20of%20the%20Force.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Balance of the Force",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "combatsuit",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Echo%20Base%20Troopers/Combat%20Suit.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Combat Suit",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "trooper",
+          "leader",
+          "guardian"
+        ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "smugglersrun",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Alliance%20Smuggler/Smugglers%20Run.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Smuggler's Run",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "heroiceffort",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Lando%20Calrissian/Heroic%20Effort.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Heroic Effort",
+        "deploymentCost": 0,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "roguesmuggler",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Rogue%20Smuggler.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Rogue Smuggler",
+        "deploymentCost": -2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "wookieavenger",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Wookiee%20Avenger.png",
+        "faction": "rebel",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Wookie Avenger",
+        "deploymentCost": -4,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }      
     }    
   ]
 }
