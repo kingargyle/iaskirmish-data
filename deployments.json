@@ -4521,6 +4521,804 @@
           }
         ]
       }
-    }    
+    },
+    {
+      "deployment": {
+        "iaspecName": "ewebengineer",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/E-Web%20Engineer.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "E-Web Engineer",
+        "subtitle": "",
+        "deploymentCost": 6,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "trooper",
+          "heavyweapon"
+        ],
+        "health": 5,
+        "speed": 2,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "red",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 3
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "recover",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "dewbackrider",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Captain%20Terro/Dewback%20Rider.png",
+        "faction": "imperial",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Dewback Rider",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "trooper",
+          "creature"
+        ],
+        "health": 9,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "eliteimperialofficer",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Imperial%20Officer%20[Elite].png",
+        "faction": "imperial",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Imperial Officer",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "leader"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "focus",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "stun",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 3
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "isbinfiltrator",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/ISB%20Infiltrators/ISB%20Infiltrator.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "ISB Infiltrator",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 3,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "spy"
+        ],
+        "health": 4,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "hide",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "eliteprobedroid",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Probe%20Droid%20[Elite].png",
+        "faction": "imperial",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Probe Droid",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "droid"
+        ],
+        "health": 7,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "yellow",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "mobile",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "recover",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "riottrooper",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Riot%20Trooper.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Riot Trooper",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 2,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "trooper",
+          "brawler",
+          "guardian"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "red"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "jettrooper",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Jet%20Trooper.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Jet Trooper",
+        "subtitle": "",
+        "deploymentCost": 4,
+        "reenforcementCost": 2,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "trooper",
+          "vehicle"
+        ],
+        "health": 3,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "mobile",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "000",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/BT-1%20and%200-0-0/0-0-0.png",
+        "faction": "imperial",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "0-0-0",
+        "subtitle": "Specialized In Pain",
+        "deploymentCost": 4,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "droid"
+        ],
+        "health": 8,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "red",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "recover",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "probedroid",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Probe%20Droid.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Probe Droid",
+        "subtitle": "Specialized In Pain",
+        "deploymentCost": 3,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "droid"
+        ],
+        "health": 5,
+        "speed": 3,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "yellow",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "mobile",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "recover",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "vadersfinest",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Stormtroopers/Vaders%20Finest.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Vader's Finest",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "imperialofficer",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Imperial%20Officer.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Imperial Officer",
+        "subtitle": "",
+        "deploymentCost": 3,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "leader"
+        ],
+        "health": 3,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "focus",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "thegeneralsranks",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/General%20Sorin/The%20Generals%20Ranks.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "The General's Ranks",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "crosstraining",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/ISB%20Infiltrators/Cross-Training.png",
+        "faction": "imperial",
+        "elite": 1,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Cross Training",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "temporaryalliance",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Temporary%20Alliance%20(E).png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Temporary Alliance",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "advancedcomsystems",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Grand%20Inquisitor/Advanced%20Com%20Systems.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Advanced Com Systems",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "leader"
+        ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "rulebyfear",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Kayn%20Somos/Rule%20by%20Fear.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Rule by Fear",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "drivenbyhatred",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Driven%20by%20Hatred.png",
+        "faction": "imperial",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Driven by Hatred",
+        "deploymentCost": -5,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    }
   ]
 }
