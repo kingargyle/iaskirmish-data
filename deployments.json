@@ -5297,7 +5297,7 @@
         "faction": "imperial",
         "elite": 0,
         "type": "upgrade",
-        "unique": 0,
+        "unique": 1,
         "name": "Rule by Fear",
         "deploymentCost": 1,
         "reenforcementCost": 0,
@@ -5319,6 +5319,2638 @@
         "unitsInGroup": 0,
         "health": 0
       }
-    }
+    },
+    {
+      "deployment": {
+        "iaspecName": "bobafett",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Boba%20Fett/Boba%20Fett.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Boba Fett",
+        "subtitle": "Infamous Bounty Hunter",
+        "deploymentCost": 13,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "hunter"
+        ],
+        "health": 12,
+        "speed": 6,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "block",
+                  "affectAmount": 1
+                },
+                {
+                  "type": "surge",
+                  "affect": "cancel",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "mobile",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "weaken",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "ig88",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/IG-88/IG-88.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "IG-88",
+        "subtitle": "Assassin Droid",
+        "deploymentCost": 12,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "droid",
+          "hunter"
+        ],
+        "health": 10,
+        "speed": 5,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "any",
+            "any"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "block",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "recover",
+                  "affectAmount": 3
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitehkassassindroid",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/HK%20Assassin%20Droid%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "HK Assassin Droid",
+        "subtitle": "",
+        "deploymentCost": 11,
+        "reenforcementCost": 6,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "droid",
+          "hunter"
+        ],
+        "health": 6,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "blue",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "weaken",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "rancor",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Rancor.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Rancor",
+        "subtitle": "",
+        "deploymentCost": 10,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "creature",
+          "brawler"
+        ],
+        "health": 15,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "green",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "massive",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "reach",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitetrandoshanhunter",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Trandoshan%20Hunter%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Trandoshan Hunter",
+        "subtitle": "",
+        "deploymentCost": 10,
+        "reenforcementCost": 5,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "hunter",
+          "brawler"
+        ],
+        "health": 8,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "focus",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "bantharider",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Bantha%20Rider/Bantha%20Rider.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Bantha Rider",
+        "subtitle": "",
+        "deploymentCost": 9,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "creature",
+          "brawler"
+        ],
+        "health": 21,
+        "speed": 5,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "none"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "red"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "massive",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "habitat",
+                  "affect": "desert",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitewingguard",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Wing%20Guard%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Wing Guard",
+        "subtitle": "",
+        "deploymentCost": 9,
+        "reenforcementCost": 3,
+        "unitsInGroup": 3,
+        "restrictions": [
+          "guardian",
+          "trooper"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "recover",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitegamorreanguard",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Gamorrean%20Guard%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Gamorrean Guard",
+        "subtitle": "",
+        "deploymentCost": 8,
+        "reenforcementCost": 4,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "guardian",
+          "brawler"
+        ],
+        "health": 8,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "red"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "reach",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitewampa",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/Wampa%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Wampa",
+        "subtitle": "",
+        "deploymentCost": 8,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "creature",
+          "brawler"
+        ],
+        "health": 12,
+        "speed": 3,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "red"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                },
+                {
+                  "type": "surge",
+                  "affect": "stun",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 3
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "habitat",
+                  "affect": "snow",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "shylavarad",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Shyla%20Varad.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Shyla Varad",
+        "subtitle": "",
+        "deploymentCost": 8,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "hunter",
+          "brawler"
+        ],
+        "health": 12,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "green",
+            "green",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cancel",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "hkassassindroid",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/HK%20Assassin%20Droid.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "HK Assassin Droid",
+        "subtitle": "",
+        "deploymentCost": 8,
+        "reenforcementCost": 4,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "droid",
+          "hunter"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "blue",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "weaken",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "bossk",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Bossk/Bossk.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Bossk",
+        "subtitle": "",
+        "deploymentCost": 8,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "brawler",
+          "hunter"
+        ],
+        "health": 10,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "red",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "block",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "eliteweequaypirate",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Weequay%20Pirate%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Weequay Pirate",
+        "subtitle": "",
+        "deploymentCost": 7,
+        "reenforcementCost": 4,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "smuggler",
+          "hunter"
+        ],
+        "health": 6,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "green",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "maul",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Maul/Maul.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Maul",
+        "subtitle": "Seeker of Vengeance",
+        "deploymentCost": 7,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "forceuser",
+          "brawler"
+        ],
+        "health": 12,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 3
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "trandoshanhunter",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Trandoshan%20Hunter.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Trandoshan Hunter",
+        "subtitle": "",
+        "deploymentCost": 7,
+        "reenforcementCost": 3,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "hunter",
+          "brawler"
+        ],
+        "health": 6,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitetuskenraider",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Twin%20Shadows/Tusken%20Raider%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Tusken Raider",
+        "subtitle": "",
+        "deploymentCost": 7,
+        "reenforcementCost": 3,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "brawler"
+        ],
+        "health": 7,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "weaken",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "habitat",
+                  "affect": "desert",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "dengar",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Dengar/Dengar.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Dengar",
+        "subtitle": "",
+        "deploymentCost": 7,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "hunter"
+        ],
+        "health": 8,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "green",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "onarkoma",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Onar%20Koma.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Onar Komar",
+        "subtitle": "",
+        "deploymentCost": 6,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "guardian",
+          "hunter"
+        ],
+        "health": 15,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "none"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "red",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                },
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": -2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                },
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": -1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitehiredgun",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Hired%20Guns/Hired%20Gun%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Hired Gun",
+        "subtitle": "",
+        "deploymentCost": 6,
+        "reenforcementCost": 3,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 4,
+        "speed": 5,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "green",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cancel",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "wingguard",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Wing%20Guard.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Wing Guard",
+        "subtitle": "",
+        "deploymentCost": 6,
+        "reenforcementCost": 2,
+        "unitsInGroup": 3,
+        "restrictions": [
+          "guardian",
+          "trooper"
+        ],
+        "health": 3,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "recover",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitenexu",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Nexu%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Nexu",
+        "subtitle": "",
+        "deploymentCost": 6,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "creature",
+          "brawler"
+        ],
+        "health": 8,
+        "speed": 6,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "mobile",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "cleave",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "jabbathehutt",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabba%20the%20Hutt/Jabba%20the%20Hutt.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Jabba the Hutt",
+        "subtitle": "",
+        "deploymentCost": 6,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "leader",
+          "smuggler",
+          "hunter"
+        ],
+        "health": 10,
+        "speed": 2,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "green"
+          ]
+        },
+        "abilities": []
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "wampa",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/Wampa.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Wampa",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "creature",
+          "brawler"
+        ],
+        "health": 9,
+        "speed": 3,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "red"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "stun",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "habitat",
+                  "affect": "snow",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "gamorreanguard",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Gamorrean%20Guard.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Gamorrean Guard",
+        "subtitle": "",
+        "deploymentCost": 6,
+        "reenforcementCost": 3,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "guardian",
+          "brawler"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "red"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "reach",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "damage",
+                  "affectAmount": -1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "weequaypirate",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Weequay%20Pirate.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Weequay Pirate",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 3,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "hunter",
+          "smuggler"
+        ],
+        "health": 4,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "green",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "tuskenraider",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Twin%20Shadows/Tusken%20Raider.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Tusken Raider",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 2,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "brawler"
+        ],
+        "health": 4,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "weaken",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "habitat",
+                  "affect": "desert",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "vintohreeda",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Vinto%20Hreeda.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Vinto Hreeda",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "hunter",
+          "smuggler"
+        ],
+        "health": 4,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "weaken",
+                  "affectAmount": 0
+                },
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                },
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                },
+                {
+                  "type": "surge",
+                  "affect": "hide",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "eliteugnaughttinkerer",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Ugnaught%20Tinkerer%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Ugnaught Tinkerer",
+        "subtitle": "",
+        "deploymentCost": 5,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 7,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "clawditeshapeshifter",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Clawdite%20Shapeshifter.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Clawdite Shapeshifter",
+        "subtitle": "",
+        "deploymentCost": 4,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "hunter",
+          "spy"
+        ],
+        "health": 6,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "red",
+            "green"
+          ]
+        },
+        "abilities": []
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "nexu",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Nexu.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Nexu",
+        "subtitle": "",
+        "deploymentCost": 4,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "creature",
+          "brawler"
+        ],
+        "health": 6,
+        "speed": 6,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "melee",
+          "dice": [
+            "red",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "mobile",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "cleave",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "greedo",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Greedo/Greedo.png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 1,
+        "name": "Greedo",
+        "subtitle": "",
+        "deploymentCost": 4,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "hunter",
+          "smuggler"
+        ],
+        "health": 7,
+        "speed": 5,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "green",
+            "green"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 1
+                },
+                {
+                  "type": "none",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 3
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "hiredgun",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Hired%20Guns/Hired%20Gun.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Greedo",
+        "subtitle": "",
+        "deploymentCost": 4,
+        "reenforcementCost": 2,
+        "unitsInGroup": 2,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 3,
+        "speed": 5,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "green",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "ugnaughttinkerer",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Ugnaught%20Tinkerer.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Ugnaught Tinkerer",
+        "subtitle": "",
+        "deploymentCost": 3,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 4,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "black"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "blue",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "bleed",
+                  "affectAmount": 0
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 1
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "elitejawascavenger",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jawa%20Scavenger/Jawa%20Scavenger%20[Elite].png",
+        "faction": "mercenary",
+        "elite": 1,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Jawa Scavenger",
+        "subtitle": "",
+        "deploymentCost": 3,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "yellow",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "pierce",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "jawascavenger",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jawa%20Scavenger/Jawa%20Scavenger.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "deployment",
+        "unique": 0,
+        "name": "Jawa Scavenger",
+        "subtitle": "",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 1,
+        "restrictions": [
+          "smuggler"
+        ],
+        "health": 5,
+        "speed": 4,
+        "shapeshifterForm": "none",
+        "defaultShapeShifterForm": "none",
+        "defense": [
+          "white"
+        ],
+        "attack": {
+          "type": "range",
+          "dice": [
+            "yellow",
+            "yellow"
+          ]
+        },
+        "abilities": [
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "none",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "damage",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          },
+          {
+            "ability": {
+              "group": [
+                {
+                  "type": "surge",
+                  "affect": "accuracy",
+                  "affectAmount": 2
+                }
+              ]
+            }
+          }          
+        ]
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "firststrike",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/First%20Strike.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "First Strike",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "punihingstrike",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Dengar/Punishing%20Strike.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Punishing Strike",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "underduress",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Under%20Duress.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Under Duress",
+        "deploymentCost": 2,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "deviousscheme",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Devious%20Scheme.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Devious Scheme",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "lastresort",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Hired%20Guns/Last%20Resort.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Last Resort",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "headhunter",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Bossk/Headhunter.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Head Hunter",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "tempoaryalliance",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Temporary%20Alliance%20(M).png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Tempoary Alliance",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "indenturedjester",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Indentured%20Jester.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Indentured Jester",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "beasttamer",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Bantha%20Rider/Beast%20Tamer.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Beast Tamer",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "preyontheweak",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Greedo/Prey%20on%20the%20Weak.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Prey on the Weak",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "hunter"
+          ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "explosivearmaments",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Boba%20Fett/Explosive%20Armaments.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Explosive Armaments",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "hunter",
+          "droid"
+          ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "blackmarket",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabba%20the%20Hutt/Black%20Market.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Black Market",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "focusedonthekill",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jawa%20Scavenger/Focused%20on%20the%20Kill.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Focused on the Kill",
+        "deploymentCost": 0,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "salaciousbcrumb",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Salacious%20B.%20Crumb.png",
+        "faction": "mercenary",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Salacious B. Crumb",
+        "deploymentCost": 0,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    }    
   ]
 }
