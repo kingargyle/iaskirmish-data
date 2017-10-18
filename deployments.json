@@ -7951,6 +7951,138 @@
         "unitsInGroup": 0,
         "health": 0
       }
+    },
+    {
+      "deployment": {
+        "iaspecName": "channeltheforce",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Obi-Wan%20Kenobi/Channel%20the%20Force.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Channel the Force",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "feedingfrenzy",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Captain%20Terro/Feeding%20Frenzy.png",
+        "faction": "any",
+        "elite": 1,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Feeding Frenzy",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "motivation",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Motivation.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Motivation",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "scavengedweaponry",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Hera%20Syndulla%20and%20C1-10P/Scavenged%20Weaponry.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Scavenged Weaponry",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "survivalist",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Alliance%20Rangers/Survivalist.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Survivalist",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "hunter",
+          "trooper"
+          ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "targetingcomputer",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/Targeting%20Computer.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Targeting Computer",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "vehicle",
+          "droid",
+          "heavyweapon"
+          ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "trustedally",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/BT-1%20and%200-0-0/Trusted%20Ally.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Trusted Ally",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "restrictions": [
+          "droid"
+          ],
+        "health": 0
+      }
+    },
+    {
+      "deployment": {
+        "iaspecName": "unshakable",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Unshakable.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 1,
+        "name": "Unshakable",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
     }    
   ]
 }
