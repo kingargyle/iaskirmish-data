@@ -9,13 +9,13 @@
         "type": "deployment",
         "unique": 1,
         "name": "Chewbacca",
-        "subtitle": "Loyal Wookie",
+        "subtitle": "Loyal Wookiee",
         "deploymentCost": 15,
         "reenforcementCost": 0,
         "unitsInGroup": 1,
         "restrictions": [
           "smuggler",
-          "wookie",
+          "wookiee",
           "guardian"
         ],
         "health": 14,
@@ -300,13 +300,13 @@
     },
     {
       "deployment": {
-        "iaspecName": "elitewookiewarrior",
+        "iaspecName": "elitewookieewarrior",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Wookie%20Warriors/Wookie%20Warrior%20[Elite].png",
         "faction": "rebel",
         "elite": 1,
         "type": "deployment",
         "unique": 1,
-        "name": "Wookie Warrior",
+        "name": "Wookiee Warrior",
         "subtitle": "",
         "deploymentCost": 11,
         "reenforcementCost": 0,
@@ -855,13 +855,13 @@
     },
     {
       "deployment": {
-        "iaspecName": "wookiewarrior",
+        "iaspecName": "wookieewarrior",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Wookie%20Warriors/Wookie%20Warrior.png",
         "faction": "rebel",
         "elite": 0,
         "type": "deployment",
         "unique": 1,
-        "name": "Wookie Warrior",
+        "name": "Wookiee Warrior",
         "subtitle": "",
         "deploymentCost": 8,
         "reenforcementCost": 4,
@@ -2764,13 +2764,13 @@
     },
     {
       "deployment": {
-        "iaspecName": "wookieavenger",
+        "iaspecName": "wookieeavenger",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Wookiee%20Avenger.png",
         "faction": "rebel",
         "elite": 0,
         "type": "upgrade",
         "unique": 1,
-        "name": "Wookie Avenger",
+        "name": "Wookiee Avenger",
         "deploymentCost": -4,
         "reenforcementCost": 0,
         "unitsInGroup": 0,
