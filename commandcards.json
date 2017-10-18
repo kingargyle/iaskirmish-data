@@ -1,0 +1,336 @@
+{
+  "commandCards": [
+    {
+      "card": {
+        "iaspecName": "assassinate",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabba%20the%20Hutt/Assassinate.png",
+        "restrictions": [
+          "hunter"
+        ],
+        "name": "Assassinate",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "adrenaline",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Chewbacca/Adrenaline.png",
+        "restrictions": [
+          "wookiee"
+        ],
+        "name": "Adrenaline",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "againsttheodds",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Echo%20Base%20Troopers/Against%20the%20Odds.png",
+        "name": "Against the Odds",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "battlescars",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Battle%20Scars.png",
+        "restrictions": [
+          "wookiee"
+        ],
+        "name": "Battle Scars",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "battlefieldawareness",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Captain%20Terro/Battlefield%20Awareness.png",
+        "restrictions": [
+          "leader"
+        ],
+        "name": "Battlefield Awareness",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "behindenemylines",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Leia%20Organa/Behind%20Enemy%20Lines.png",
+        "restrictions": [
+          "spy"
+        ],
+        "name": "Behind Enemy Lines",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "blackmarketprices",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Lando%20Calrissian/Black%20Market%20Prices.png",
+        "restrictions": [
+          "smuggler"
+        ],
+        "name": "Black Market Prices",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "blitz",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Luke%20Skywalker%20Jedi/Blitz.png",
+        "name": "Blitz",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "bodyguard",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Royal%20Guard%20Champion/Bodyguard.png",
+        "restrictions": [
+          "guardian"
+        ],
+        "name": "Bodyguard",
+        "cost": 1,
+        "limit": 2
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "braceyourself",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Dengar/Brace%20Yourself.png",
+        "name": "Brace Yourself",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "braceforimpact",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/BT-1%20and%200-0-0/Brace%20for%20Impact.png",
+        "name": "Brace for Impact",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "callthevanguard",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Alliance%20Rangers/Call%20the%20Vanguard.png",
+        "restrictions": [
+          "trooper"
+        ],
+        "name": "Call the Vanguard",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "camouflage",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Camouflage.png",
+        "name": "Camouflage",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "capturetheweary",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Boba%20Fett/Capture%20the%20Weary.png",
+        "restrictions": [
+          "hunter"
+        ],
+        "name": "Capture the Weary",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "celebration",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Celebration.png",
+        "name": "Celebration",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "changeofplans",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Rebel%20Saboteurs/Change%20of%20Plans.png",
+        "name": "Change of Plans",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "closethegap",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Close%20the%20Gap.png",
+        "restrictions": [
+          "brawler"
+        ],
+        "name": "closethegap",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "collateraldamage",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Heart%20of%20the%20Empire/Collateral%20Damage.png",
+        "restrictions": [
+          "heavyweapon"
+        ],
+        "name": "collateraldamage",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "collectintel",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Rebel%20Saboteurs/Collect%20Intel.png",
+        "name": "Collect Intel",
+        "cost": 1,
+        "limit": 2
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "commdisruption",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/ISB%20Infiltrators/Comm%20Disruption.png",
+        "name": "Comm Disruption",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "counterattack",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Royal%20Guard%20Champion/Counter%20Attack.png",
+        "restrictions": [
+          "brawler"
+        ],
+        "name": "Counter Attack",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "coveringfire",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Covering%20Fire.png",
+        "restrictions": [
+          "trooper"
+        ],
+        "name": "Covering Fire",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "cripple",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Royal%20Guard%20Champion/Cripple.png",
+        "restrictions": [
+          "brawler",
+          "hunter"
+        ],
+        "name": "Cripple",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "cruelstrike",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Twin%20Shadows/Cruel%20Strike.png",
+        "name": "Cruel Strike",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "crush",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Bantha%20Rider/Crush.png",
+        "restrictions": [
+          "massive"
+        ],
+        "name": "Crush",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "cutlines",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/ISB%20Infiltrators/Cut%20Lines.png",
+        "restrictions": [
+          "spy"
+        ],
+        "name": "Cut Lines",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "dangerousbargains",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Dengar/Dangerous%20Bargains.png",
+        "name": "Dangerous Bargains",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "datatheft",
+        "faction": "any",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/ISB%20Infiltrators/Data%20Theft.png",
+        "restrictions": [
+          "spy"
+        ],
+        "name": "Data Theft",
+        "cost": 1,
+        "limit": 1
+      }
+    }    
+  ]
+}
