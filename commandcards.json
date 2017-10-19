@@ -1915,6 +1915,307 @@
         "cost": 2,
         "limit": 1
       }
+    },
+    {
+      "card": {
+        "iaspecName": "apowerfulinfluence",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Obi-Wan%20Kenobi/A%20Powerful%20Influence.png",
+        "restrictions": [
+          "forceuser"
+        ],
+        "name": "A Powerful Influence",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "balancingforce",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Ahsoka%20Tano/Balancing%20Force.png",
+        "name": "Balancing Force",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "burstfire",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Burst%20Fire.png",
+        "deployment": "fennsignis",
+        "name": "Burst Fire",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "cheattowin",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Lando%20Calrissian/Cheat%20to%20Win.png",
+        "deployment": "landocalrissian",
+        "name": "Cheat to Win",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "coordinatedattack",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/Coordinated%20Attack.png",
+        "deployment": "lokukanoloa",
+        "name": "Coordinated Attack",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "debtsrepaid",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Chewbacca/Debts%20Repaid.png",
+        "deployment": "chewbacca",
+        "name": "Debts Repaid",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "etiquetteandprotocol",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/R2-D2%20and%20C-3PO/Etiquette%20and%20Protocol.png",
+        "deployment": "c3po",
+        "name": "Etiquette and Protocol",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "evacuate",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Hera%20Syndulla%20and%20C1-10P/Evacuate.png",
+        "deployment": "herasyndulla",
+        "name": "Evacuate",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "fataldeception",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Fatal%20Deception.png",
+        "deployment": "murnerin",
+        "name": "Fatal Deception",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "fieldsupply",
+        "faction": "rebel",
+        "imageurl": "http://cards.boardwars.eu/cache/Expansion-Boxes/Heart-of-the-Empire/Command%20Cards/Field%20Supply%20command%20card_595_ffflogog_whatermark_cc.jpg",
+        "deployment": "kotunferalo",
+        "name": "Field Supply",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "forcepush",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Ahsoka%20Tano/Force%20Push.png",
+        "restrictions": [
+          "forceuser"
+        ],
+        "name": "Force Push",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "furiouscharge",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Furious%20Charge.png",
+        "deployment": "gaarkhan",
+        "name": "Furious Charge",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "heartoffreedom",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Alliance%20Smuggler/Heart%20of%20Freedom.png",
+        "name": "Heart of Freedom",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "masteroperative",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/Master%20Operative.png",
+        "deployment": "verenatalos",
+        "name": "Master Operative",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "meditation",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Meditation.png",
+        "restrictions": [
+          "forceuser"
+        ],
+        "name": "Meditation",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "miracleworker",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/Miracle%20Worker.png",
+        "deployment": "mhd19",
+        "name": "Miracle Worker",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "onamission",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Hera%20Syndulla%20and%20C1-10P/On%20A%20Mission.png",
+        "deployment": "c110p",
+        "name": "On a Mission",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "oneinamillion",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/One%20in%20a%20Million.png",
+        "deployment": "jynodan",
+        "name": "One in a Million",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "rightbackatya",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/One%20in%20a%20Million.png",
+        "deployment": "ahsokatano",
+        "name": "Right Back At Ya!",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "sarlacsweep",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Sarlacc%20Sweep.png",
+        "deployment": "dialapassil",
+        "name": "Sarlacc Sweep",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "shadowops",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Shadow%20Ops.png",
+        "deployment": "makeshkarey",
+        "name": "Shadow Ops",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "sonofskywalker",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Son%20of%20Skywalker.png",
+        "deployment": "lukeskywalker",
+        "name": "Son of Skywalker",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "staydown",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Twin%20Shadows/Stay%20Down.png",
+        "deployment": "bivbodhrik",
+        "name": "Stay Down",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "takeitdown",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Take%20it%20Down.png",
+        "deployment": "gideonargus",
+        "name": "Take it Down",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "terminalnetwork",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/R2-D2%20and%20C-3PO/Terminal%20Network.png",
+        "deployment": "r2d2",
+        "name": "Terminal Network",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "thereisanother",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Leia%20Organa/There%20is%20Another.png",
+        "deployment": "leiaorgana",
+        "name": "There is Another",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "vanish",
+        "faction": "rebel",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Bespin%20Gambit/Vanish.png",
+        "deployment": "davithelso",
+        "name": "Vanish",
+        "cost": 2,
+        "limit": 1
+      }
     }    
   ]
 }
