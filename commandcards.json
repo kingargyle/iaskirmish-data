@@ -1743,6 +1743,178 @@
         "cost": 1,
         "limit": 1
       }
+    },
+    {
+      "card": {
+        "iaspecName": "ballisticsmatrix",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/BT-1%20and%200-0-0/Ballistics%20Matrix.png",
+        "deployment": "bt1",
+        "name": "Ballistics Matrix",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "cavalrycharge",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Captain%20Terro/Cavalry%20Charge.png",
+        "deployment": "captainterro",
+        "name": "Captain Terro",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "corruptingforce",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Emperor%20Palpatine/Corrupting%20Force.png",
+        "name": "Corrupting Force",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "darkenergy",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Emperor%20Palpatine/Dark%20Energy.png",
+        "restrictions": [
+          "forceuser"
+        ],
+        "name": "Dark Energy",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "deadlyprecison",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Grand%20Inquisitor/Deadly%20Precision.png",
+        "restrictions": [
+          "forceuser"
+        ],
+        "name": "Deadly Precision",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "eerievisage",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/BT-1%20and%200-0-0/Eerie%20Visage.png",
+        "deployment": "000",
+        "name": "Eerie Visage",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "endlessreserves",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/General%20Weiss/Endless%20Reserves.png",
+        "deployment": "generalweiss",
+        "name": "Endless Reserves",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "flurryofblades",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Royal%20Guard%20Champion/Flurry%20of%20Blades.png",
+        "deployment": "royalguardchampion",
+        "name": "Flurry of Blades",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "forcelightning",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Force%20Lightning.png",
+        "restrictions": [
+          "forceuser"
+        ],
+        "name": "Force Lightning",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "huntthemdown",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/The%20Grand%20Inquisitor/Hunt%20Them%20Down.png",
+        "deployment": "thegrandinqusitor",
+        "name": "Hunt Them Down",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "lordofthesith",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Lord%20of%20the%20Sith.png",
+        "deployment": "darthvader",
+        "name": "Lord of the Sith",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "lureofthedarkside",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Lure%20of%20the%20Dark%20Side.png",
+        "restrictions": [
+          "forceuser"
+        ],
+        "name": "Lure of the Dark Side",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "optimalbombardment",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/General%20Sorin/Optimal%20Bombardment.png",
+        "deployment": "generalsorin",
+        "name": "Optimal Bombardment",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "rallythetroops",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Kayn%20Somos/Rally%20the%20Troops.png",
+        "deployment": "kaynsomos",
+        "name": "Rally the Troops",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "unlimitedpower",
+        "faction": "imperial",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Emperor%20Palpatine/Unlimited%20Power.png",
+        "deployment": "emporerpalpatine",
+        "name": "Unlimited Power",
+        "cost": 2,
+        "limit": 1
+      }
     }    
   ]
 }
