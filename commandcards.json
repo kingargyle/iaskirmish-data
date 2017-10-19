@@ -1614,6 +1614,135 @@
         "cost": 2,
         "limit": 1
       }
+    },
+    {
+      "card": {
+        "iaspecName": "bladestorm",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Bladestorm.png",
+        "deployment": "shylavarad",
+        "name": "Bladestorm",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "blazeofglory",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/IG-88/Blaze%20of%20Glory.png",
+        "deployment": "ig88",
+        "name": "Blaze of Glory",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "bloodfeud",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabba%20the%20Hutt/Blood%20Feud.png",
+        "deployment": "jabbathehutt",
+        "name": "Blood Feud",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "chaoticforce",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Maul/Chaotic%20Force.png",
+        "name": "Chaotic Force",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "draw",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Draw!.png",
+        "deployment": "vintohreeda",
+        "name": "Draw!",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "extraprotection",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabbas%20Realm/Extra%20Protection.png",
+        "deployment": "onarkoma",
+        "name": "Extra Protection",
+        "cost": 1,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "mandaloriantactics",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Boba%20Fett/Mandalorian%20Tactics.png",
+        "deployment": "bobafett",
+        "name": "Mandalorian Tactics",
+        "cost": 3,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "opportunistic",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Bantha%20Rider/Opportunistic.png",
+        "name": "Opportunistic",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "shootthemessenger",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Jabba%20the%20Hutt/Shoot%20the%20Messenger.png",
+        "name": "Shoot the Messenger",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "strokeofbrilliance",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Greedo/Stroke%20of%20Brilliance.png",
+        "deployment": "greedo",
+        "name": "Stroke of Brilliance",
+        "cost": 0,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "trandoshanterror",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Bossk/Trandoshan%20Terror.png",
+        "deployment": "bossk",
+        "name": "Trandoshan Terror",
+        "cost": 2,
+        "limit": 1
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "wreakvengeance",
+        "faction": "mercenary",
+        "imageurl": "http://tabletopadmiral.com/static/main/images/Maul/Wreak%20Vengeance.png",
+        "deployment": "maul",
+        "name": "Wreak Vengeance",
+        "cost": 1,
+        "limit": 1
+      }
     }    
   ]
 }
