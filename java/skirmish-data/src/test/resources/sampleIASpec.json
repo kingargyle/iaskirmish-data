@@ -1,0 +1,199 @@
+{
+  "iaspecversion": "0.5.0",
+  "army": {
+    "name": "Sample Army - Jabba's Cats",
+    "deployments": [
+      {
+        "deployment": {
+          "iaspecName": "rancor",
+          "faction": "mercenary",
+          "name": "Rancor"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "jabbathehutt",
+          "faction": "mercenary",
+          "name": "Jabba the Hutt"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "hiredgun",
+          "faction": "mercenary",
+          "name": "Hired Gun"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "nexu",
+          "faction": "mercenary",
+          "name": "Nexu"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "nexu",
+          "faction": "mercenary",
+          "name": "Nexu"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "nexu",
+          "faction": "mercenary",
+          "name": "Nexu"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "nexu",
+          "faction": "mercenary",
+          "name": "Nexu"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "nexu",
+          "faction": "mercenary",
+          "name": "Nexu"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "salaciousbcrumb",
+          "faction": "mercenary",
+          "name": "Salacious B Crumb"
+        }
+      },      
+      {
+        "deployment": {
+          "iaspecName": "beasttamer",
+          "faction": "mercenary",
+          "name": "Beast Tamer"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "indenturedjester",
+          "faction": "mercenary",
+          "name": "Indentured Jester"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "lastresort",
+          "faction": "mercenary",
+          "name": "Last Resort"
+        }
+      },
+      {
+        "deployment": {
+          "iaspecName": "unshakeable",
+          "faction": "mercenary",
+          "name": "Unshakeable"
+        }
+      }      
+    ]
+  },
+  "commandCards": [
+    {
+      "card": {
+        "iaspecName": "blackmarketprices",
+        "faction": "any",
+        "name": "Black Market Prices"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "celebration",
+        "faction": "any",
+        "name": "Celebration"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "crush",
+        "faction": "any",
+        "name": "Crush"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "ferocity",
+        "faction": "any",
+        "name": "Ferocity"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "negation",
+        "faction": "any",
+        "name": "Negation"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "roar",
+        "faction": "any",
+        "name": "roar"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "setatrap",
+        "faction": "any",
+        "name": "Set a Trap"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "shootthemessenger",
+        "faction": "mercenary",
+        "name": "Shoot the Messenger"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "slipperytarget",
+        "faction": "any",
+        "name": "Slippery Target"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "strengthinnumbers",
+        "faction": "any",
+        "name": "Strength in Numbers"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "takeinitiative",
+        "faction": "any",
+        "name": "Take Initiative"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "toughluck",
+        "faction": "any",
+        "name": "Tough Luck"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "wildattack",
+        "faction": "any",
+        "name": "wildattack"
+      }
+    },
+    {
+      "card": {
+        "iaspecName": "wildfury",
+        "faction": "any",
+        "name": "Wild Fury"
+      }
+    }
+  ]
+}
