@@ -1,4 +1,4 @@
-package us.nineworlds.iadata;
+package us.nineworlds.iadata.enums;
 
 public enum Factions {
 	

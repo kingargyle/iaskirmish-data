@@ -2,6 +2,8 @@ package us.nineworlds.iadata;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import us.nineworlds.iadata.enums.Factions;
+
 public class CommandCard {
 
 	@JsonProperty(required=true, value="faction")

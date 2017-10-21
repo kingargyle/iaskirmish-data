@@ -9,6 +9,8 @@ import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import us.nineworlds.iadata.enums.Factions;
+
 public class IASpectTest {
 	
 	ObjectMapper mapper;
