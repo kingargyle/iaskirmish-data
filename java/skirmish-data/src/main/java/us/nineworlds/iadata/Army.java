@@ -4,6 +4,8 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import us.nineworlds.iadata.deployment.Deployments;
+
 public class Army {
 	
 	@JsonProperty(required=true, value="name")

@@ -4,6 +4,8 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import us.nineworlds.iadata.command.CommandCards;
+
 public class IASpec {
 
 	@JsonProperty(required=true, value="iaspecversion")

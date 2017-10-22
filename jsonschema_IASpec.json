@@ -1,0 +1,193 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:us:nineworlds:iadata:IASpec",
+  "properties" : {
+    "iaspecversion" : {
+      "type" : "string",
+      "required" : true
+    },
+    "army" : {
+      "type" : "object",
+      "id" : "urn:jsonschema:us:nineworlds:iadata:Army",
+      "required" : true,
+      "properties" : {
+        "name" : {
+          "type" : "string",
+          "required" : true
+        },
+        "deployments" : {
+          "type" : "array",
+          "required" : true,
+          "items" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Deployments",
+            "properties" : {
+              "deployment" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Deployment",
+                "properties" : {
+                  "iaspecName" : {
+                    "type" : "string",
+                    "required" : true
+                  },
+                  "faction" : {
+                    "type" : "string",
+                    "required" : true,
+                    "enum" : [ "imperial", "rebel", "mercenary", "any" ]
+                  },
+                  "name" : {
+                    "type" : "string"
+                  },
+                  "imageurl" : {
+                    "type" : "string"
+                  },
+                  "elite" : {
+                    "type" : "boolean"
+                  },
+                  "type" : {
+                    "type" : "string",
+                    "enum" : [ "deployment", "upgrade", "any" ]
+                  },
+                  "unique" : {
+                    "type" : "boolean"
+                  },
+                  "subtitle" : {
+                    "type" : "string"
+                  },
+                  "deploymentCost" : {
+                    "type" : "integer"
+                  },
+                  "reenforcementCost" : {
+                    "type" : "integer"
+                  },
+                  "unitsInGroup" : {
+                    "type" : "integer"
+                  },
+                  "restrictions" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string",
+                      "enum" : [ "wookiee", "smuggler", "guardian", "trooper", "hunter", "leader", "creature", "vehicle", "brawler", "forceuser", "heavyweapon", "droid", "spy", "massive" ]
+                    }
+                  },
+                  "health" : {
+                    "type" : "integer"
+                  },
+                  "speed" : {
+                    "type" : "integer"
+                  },
+                  "defense" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string",
+                      "enum" : [ "white", "black", "none" ]
+                    }
+                  },
+                  "attack" : {
+                    "type" : "object",
+                    "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Attack",
+                    "properties" : {
+                      "type" : {
+                        "type" : "string",
+                        "enum" : [ "range", "melee", "none" ]
+                      },
+                      "dice" : {
+                        "type" : "array",
+                        "items" : {
+                          "type" : "string",
+                          "enum" : [ "blue", "red", "green", "yellow", "any" ]
+                        }
+                      }
+                    }
+                  },
+                  "abilities" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "object",
+                      "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Abilities",
+                      "properties" : {
+                        "ability" : {
+                          "type" : "object",
+                          "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:AbilityGroup",
+                          "properties" : {
+                            "group" : {
+                              "type" : "array",
+                              "items" : {
+                                "type" : "object",
+                                "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Ability",
+                                "properties" : {
+                                  "type" : {
+                                    "type" : "string",
+                                    "enum" : [ "none", "surge", "doublesurge", "block", "habitat" ]
+                                  },
+                                  "affect" : {
+                                    "type" : "string",
+                                    "enum" : [ "damage", "stun", "weaken", "bleed", "accuracy", "hide", "pierce", "recover", "mobile", "massive", "cancel", "focus", "powerdamage", "powerblock", "blast", "cleave", "block", "surge", "reach", "desert", "snow" ]
+                                  },
+                                  "affectAmount" : {
+                                    "type" : "integer"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "commandCards" : {
+      "type" : "array",
+      "required" : true,
+      "items" : {
+        "type" : "object",
+        "id" : "urn:jsonschema:us:nineworlds:iadata:command:CommandCards",
+        "properties" : {
+          "card" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:us:nineworlds:iadata:command:CommandCard",
+            "properties" : {
+              "faction" : {
+                "type" : "string",
+                "required" : true,
+                "enum" : [ "imperial", "rebel", "mercenary", "any" ]
+              },
+              "iaspecName" : {
+                "type" : "string",
+                "required" : true
+              },
+              "name" : {
+                "type" : "string"
+              },
+              "imageurl" : {
+                "type" : "string"
+              },
+              "restrictions" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "string",
+                  "enum" : [ "wookiee", "smuggler", "guardian", "trooper", "hunter", "leader", "creature", "vehicle", "brawler", "forceuser", "heavyweapon", "droid", "spy", "massive" ]
+                }
+              },
+              "cost" : {
+                "type" : "integer"
+              },
+              "limit" : {
+                "type" : "integer"
+              },
+              "deployment" : {
+                "type" : "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

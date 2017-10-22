@@ -1,4 +1,4 @@
-package us.nineworlds.iadata;
+package us.nineworlds.iadata.command;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
