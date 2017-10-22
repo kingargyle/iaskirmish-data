@@ -4,9 +4,25 @@
 	<groupId>us.nineworlds.iadata</groupId>
 	<artifactId>skirmish-data</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>skirmish-data</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/kingargyle/iaskirmish-data</url>
+	
+	<description>skirmish-data is a java library for ready and writing the ia-skirmish specification.</description>
+	
+	<licenses>
+		<license>
+			<name>MIT</name>
+			<url>https://opensource.org/licenses/MIT</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>David Carver</name>
+			<email>d_a_carver@yahoo.com</email>
+		</developer>
+	</developers>
+		
 	<dependencies>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
