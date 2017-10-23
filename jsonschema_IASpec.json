@@ -4,20 +4,24 @@
   "properties" : {
     "iaspecversion" : {
       "type" : "string",
-      "required" : true
+      "required" : true,
+      "description" : "The versions number of the specification implemented. Currently this is 0.5.0.  This is a required field."
     },
     "army" : {
       "type" : "object",
       "id" : "urn:jsonschema:us:nineworlds:iadata:Army",
       "required" : true,
+      "description" : "An army contains a deployments group, which contains a list of deployment cards. This is a required field",
       "properties" : {
         "name" : {
           "type" : "string",
-          "required" : true
+          "required" : true,
+          "description" : "A required field that is a human readable name for the army."
         },
         "deployments" : {
           "type" : "array",
           "required" : true,
+          "description" : "A required list of one or more deployment groups that describe the army.",
           "items" : {
             "type" : "object",
             "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Deployments",
@@ -25,59 +29,76 @@
               "deployment" : {
                 "type" : "object",
                 "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Deployment",
+                "required" : true,
+                "description" : "A required field that contains detailed information about a deployment card.",
                 "properties" : {
                   "iaspecName" : {
                     "type" : "string",
-                    "required" : true
+                    "required" : true,
+                    "description" : "The iaspec canonical name for the card.  This is typically the name of the card in lowercase without any puncuation or spaces included."
                   },
                   "faction" : {
                     "type" : "string",
                     "required" : true,
+                    "description" : "An enumerated type for which faction this belongs.  Valid types are imperial, mercenary, rebel, any",
                     "enum" : [ "imperial", "rebel", "mercenary", "any" ]
                   },
                   "name" : {
-                    "type" : "string"
+                    "type" : "string",
+                    "description" : "Optional field that contains the human readable name of the deployment card."
                   },
                   "imageurl" : {
-                    "type" : "string"
+                    "type" : "string",
+                    "description" : "Optional field that points to a url end point for the image of the deployment card."
                   },
                   "elite" : {
-                    "type" : "boolean"
+                    "type" : "boolean",
+                    "description" : "Optional field specifying if the deployment card is elite or not.  0 for false, 1 for true."
                   },
                   "type" : {
                     "type" : "string",
+                    "description" : "Optional field describing the type of deployment. Valid options currently are deployment or upgrade.",
                     "enum" : [ "deployment", "upgrade", "any" ]
                   },
                   "unique" : {
-                    "type" : "boolean"
+                    "type" : "boolean",
+                    "description" : "Optional field specifying if the deployment card is unique or not.  0 for false, 1 for true"
                   },
                   "subtitle" : {
-                    "type" : "string"
+                    "type" : "string",
+                    "description" : "Optional field providing the subtitle that sometimes appears under the name of the card."
                   },
                   "deploymentCost" : {
-                    "type" : "integer"
+                    "type" : "integer",
+                    "description" : "Optional field providing the deployment cost for the deployment card.  This is not the re-enforcement cost of the card."
                   },
                   "reenforcementCost" : {
-                    "type" : "integer"
+                    "type" : "integer",
+                    "description" : "Optional field that specifies how much the re-enforcement cost for each unit in the group."
                   },
                   "unitsInGroup" : {
-                    "type" : "integer"
+                    "type" : "integer",
+                    "description" : "Optional field that specifies the number of units that belong in this group."
                   },
                   "restrictions" : {
                     "type" : "array",
+                    "description" : "Optional field that lists all of the restriction traits for the deployment card.  This typically will match up with restrictions for command cards.",
                     "items" : {
                       "type" : "string",
                       "enum" : [ "wookiee", "smuggler", "guardian", "trooper", "hunter", "leader", "creature", "vehicle", "brawler", "forceuser", "heavyweapon", "droid", "spy", "massive" ]
                     }
                   },
                   "health" : {
-                    "type" : "integer"
+                    "type" : "integer",
+                    "description" : "Optional field that specifies how much starting health the deployment card has."
                   },
                   "speed" : {
-                    "type" : "integer"
+                    "type" : "integer",
+                    "description" : "Optional field that specifies the base movement speed for this deployment.  For upgrades or attachments this will always be zero."
                   },
                   "defense" : {
                     "type" : "array",
+                    "description" : "Optional field that specifies the dice that make up the defense pool.",
                     "items" : {
                       "type" : "string",
                       "enum" : [ "white", "black", "none" ]
@@ -86,13 +107,18 @@
                   "attack" : {
                     "type" : "object",
                     "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Attack",
+                    "description" : "Optional field that specifies the group for the attack pool dice.",
                     "properties" : {
                       "type" : {
                         "type" : "string",
+                        "required" : true,
+                        "description" : "A required enumerated value that describes the attack type.  melee or range",
                         "enum" : [ "range", "melee", "none" ]
                       },
                       "dice" : {
                         "type" : "array",
+                        "required" : true,
+                        "description" : "A list of attack dice used to make up the attack pool. ",
                         "items" : {
                           "type" : "string",
                           "enum" : [ "blue", "red", "green", "yellow", "any" ]
@@ -102,6 +128,7 @@
                   },
                   "abilities" : {
                     "type" : "array",
+                    "description" : "Optional field that lists the abilities for the deployment card.",
                     "items" : {
                       "type" : "object",
                       "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Abilities",
@@ -109,23 +136,31 @@
                         "ability" : {
                           "type" : "object",
                           "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:AbilityGroup",
+                          "description" : "A field that describes the abilities for a deployment card.",
                           "properties" : {
                             "group" : {
                               "type" : "array",
+                              "description" : "A list group abilities for the deployment card.  An ability can trigger more than one group for the same type. ",
                               "items" : {
                                 "type" : "object",
                                 "id" : "urn:jsonschema:us:nineworlds:iadata:deployment:Ability",
                                 "properties" : {
                                   "type" : {
                                     "type" : "string",
+                                    "required" : true,
+                                    "description" : "A required field describing the type of ability",
                                     "enum" : [ "none", "surge", "doublesurge", "block", "habitat" ]
                                   },
                                   "affect" : {
                                     "type" : "string",
+                                    "required" : true,
+                                    "description" : "A required field describing the affect that is applied by the type.",
                                     "enum" : [ "damage", "stun", "weaken", "bleed", "accuracy", "hide", "pierce", "recover", "mobile", "massive", "cancel", "focus", "powerdamage", "powerblock", "blast", "cleave", "block", "surge", "reach", "desert", "snow" ]
                                   },
                                   "affectAmount" : {
-                                    "type" : "integer"
+                                    "type" : "integer",
+                                    "required" : true,
+                                    "description" : "A required field that specifies how much is applied.  This can be a negative number."
                                   }
                                 }
                               }
@@ -145,6 +180,7 @@
     "commandCards" : {
       "type" : "array",
       "required" : true,
+      "description" : "A list of command cards for the army described in this specification. This is a required field.",
       "items" : {
         "type" : "object",
         "id" : "urn:jsonschema:us:nineworlds:iadata:command:CommandCards",
