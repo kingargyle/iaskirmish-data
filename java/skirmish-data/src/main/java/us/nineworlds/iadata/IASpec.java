@@ -44,6 +44,4 @@ public class IASpec {
 	public void setCards(List<CommandCards> commandCards) {
 		this.commandCards = commandCards;
 	}
-	
-	
 }
