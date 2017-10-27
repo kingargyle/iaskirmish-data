@@ -195,7 +195,7 @@
         "restrictions": [
           "brawler"
         ],
-        "name": "closethegap",
+        "name": "Close the Gap",
         "cost": 2,
         "limit": 1
       }

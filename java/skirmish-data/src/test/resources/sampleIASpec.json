@@ -54,13 +54,6 @@
       },
       {
         "deployment": {
-          "iaspecName": "nexu",
-          "faction": "mercenary",
-          "name": "Nexu"
-        }
-      },
-      {
-        "deployment": {
           "iaspecName": "salaciousbcrumb",
           "faction": "mercenary",
           "name": "Salacious B Crumb"
@@ -90,7 +83,7 @@
       {
         "deployment": {
           "iaspecName": "unshakeable",
-          "faction": "mercenary",
+          "faction": "any",
           "name": "Unshakeable"
         }
       }      

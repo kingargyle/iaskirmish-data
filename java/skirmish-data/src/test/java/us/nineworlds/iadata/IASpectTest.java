@@ -34,5 +34,13 @@ public class IASpectTest {
 		
 		assertThat(iaspec.getCommandCards().get(0).getCommandCard().getFaction()).isEqualTo(Factions.ANY);
 	}
+	
+	@Test
+	public void loadIASpecTableTopAdmiral() throws Exception {
+		IASpec iaspec = mapper.readValue(this.getClass().getResourceAsStream("/tabletopadmiralFixed.json"), IASpec.class);
+		
+		assertThat(iaspec.getCommandCards()).isNotEmpty();
+	}
+	
 
 }

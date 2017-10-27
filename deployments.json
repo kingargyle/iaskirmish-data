@@ -5259,7 +5259,7 @@
     },
     {
       "deployment": {
-        "iaspecName": "temporaryalliance",
+        "iaspecName": "temporaryallianceempire",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Temporary%20Alliance%20(E).png",
         "faction": "imperial",
         "elite": 0,
@@ -7827,7 +7827,7 @@
     },
     {
       "deployment": {
-        "iaspecName": "tempoaryalliance",
+        "iaspecName": "tempoaryalliancescum",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Temporary%20Alliance%20(M).png",
         "faction": "mercenary",
         "elite": 0,
@@ -8083,6 +8083,21 @@
         "unitsInGroup": 0,
         "health": 0
       }
-    }    
+    },
+    {
+      "deployment": {
+        "iaspecName": "unshakeable",
+        "imageurl": "https://vignette.wikia.nocookie.net/imperial-assault/images/a/ae/Unshakable.png",
+        "faction": "any",
+        "elite": 0,
+        "type": "upgrade",
+        "unique": 0,
+        "name": "Unshakeable",
+        "deploymentCost": 1,
+        "reenforcementCost": 0,
+        "unitsInGroup": 0,
+        "health": 0
+      }
+    }
   ]
 }
