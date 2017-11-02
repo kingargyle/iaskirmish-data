@@ -1,7 +1,5 @@
-* skirmish-data - loads and writes IASpec data using Jackson 2.9.2.
 
-
-# Building
+# Building Java Library
 
 To build the skirmsh-data jar.
 
