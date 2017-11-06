@@ -169,6 +169,13 @@
                         }
                       }
                     }
+                  },
+                  "vendorOptions" : {
+                    "type" : "object",
+                    "description" : "Optional field that contains application vendor specific items.  If you have extensions they should go here.",
+                    "additionalProperties" : {
+                      "type" : "any"
+                    }
                   }
                 }
               }
@@ -219,6 +226,12 @@
               },
               "deployment" : {
                 "type" : "string"
+              },
+              "vendorOptions" : {
+                "type" : "object",
+                "additionalProperties" : {
+                  "type" : "any"
+                }
               }
             }
           }
