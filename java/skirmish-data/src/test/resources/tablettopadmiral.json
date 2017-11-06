@@ -1,0 +1,171 @@
+{
+	"iaspecversion": "0.5.0",
+	"army": {
+		"name": "",
+		"deployments": [
+			{
+				"deployment": {
+					"iaspecName": "darthvader",
+					"faction": "imperial",
+					"name": "Darth Vader"
+				}
+			},
+			{
+				"deployment": {
+					"iaspecName": "drivenbyhatred",
+					"faction": "imperial",
+					"name": "Driven by Hatred"
+				}
+			},
+			{
+				"deployment": {
+					"iaspecName": "imperialofficer",
+					"faction": "imperial",
+					"name": "Imperial Officer"
+				}
+			},
+			{
+				"deployment": {
+					"iaspecName": "imperialofficer",
+					"faction": "imperial",
+					"name": "Imperial Officer"
+				}
+			},
+			{
+				"deployment": {
+					"iaspecName": "imperialofficer",
+					"faction": "imperial",
+					"name": "Imperial Officer"
+				}
+			},
+			{
+				"deployment": {
+					"iaspecName": "rancor",
+					"faction": "imperial",
+					"name": "Rancor"
+				}
+			},
+			{
+				"deployment": {
+					"iaspecName": "rancor",
+					"faction": "imperial",
+					"name": "Rancor"
+				}
+			},
+			{
+				"deployment": {
+					"iaspecName": "temporaryallianceempire",
+					"faction": "imperial",
+					"name": "Temporary Alliance (E)"
+				}
+			}
+		],
+		"commandCards": [
+			{
+				"card": {
+					"iaspecName": "advancewarning",
+					"faction": "any",
+					"name": "Advance Warning"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "closethegap",
+					"faction": "any",
+					"name": "Close the Gap"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "corruptingforce",
+					"faction": "imperial",
+					"name": "Corrupting Force"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "crush",
+					"faction": "any",
+					"name": "Crush"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "darkenergy",
+					"faction": "imperial",
+					"name": "Dark Energy"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "ferocity",
+					"faction": "any",
+					"name": "Ferocity"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "forcejump",
+					"faction": "any",
+					"name": "Force Jump"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "inspiringspeech",
+					"faction": "any",
+					"name": "Inspiring Speech"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "jumpjets",
+					"faction": "any",
+					"name": "Jump Jets"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "lookingforafight",
+					"faction": "any",
+					"name": "Looking for a Fight"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "opportunistic",
+					"faction": "any",
+					"name": "Opportunistic"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "parry",
+					"faction": "any",
+					"name": "Parry"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "planning",
+					"faction": "any",
+					"name": "Planning"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "pummel",
+					"faction": "any",
+					"name": "Pummel"
+				}
+			},
+			{
+				"card": {
+					"iaspecName": "pummel",
+					"faction": "any",
+					"name": "Pummel"
+				}
+			}
+		]
+	}
+}

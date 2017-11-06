@@ -1,6 +1,7 @@
 package us.nineworlds.iadata.deployment;
 
 import java.util.List;
+import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -81,6 +82,10 @@ public class Deployment {
 	@JsonProperty("abilities")
 	@JsonPropertyDescription("Optional field that lists the abilities for the deployment card.")
 	private List<Abilities> abilities;
+	
+	@JsonProperty("vendorOptions")
+	@JsonPropertyDescription("Optional field that contains application vendor specific items.  If you have extensions they should go here.")
+	private Map<String, Object> vendorOptions;
 
 	public Factions getFaction() {
 		return faction;
@@ -216,5 +221,13 @@ public class Deployment {
 
 	public void setAbilities(List<Abilities> abilities) {
 		this.abilities = abilities;
+	}
+
+	public Map<String, Object> getVendorOptions() {
+		return vendorOptions;
+	}
+
+	public void setVendorOptions(Map<String, Object> vendorOptions) {
+		this.vendorOptions = vendorOptions;
 	}
 }

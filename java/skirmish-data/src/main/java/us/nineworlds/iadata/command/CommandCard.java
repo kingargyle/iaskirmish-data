@@ -1,6 +1,7 @@
 package us.nineworlds.iadata.command;
 
 import java.util.List;
+import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -32,7 +33,10 @@ public class CommandCard {
 	
 	@JsonProperty("deployment")
 	private String deploymentCard;
-
+	
+	@JsonProperty("vendorOptions")
+	private Map<String, Object> vendorOptions;
+	
 	public Factions getFaction() {
 		return faction;
 	}
@@ -95,6 +99,14 @@ public class CommandCard {
 
 	public void setDeploymentCard(String deploymentCard) {
 		this.deploymentCard = deploymentCard;
+	}
+
+	public Map<String, Object> getVendorOptions() {
+		return vendorOptions;
+	}
+
+	public void setVendorOptions(Map<String, Object> vendorOptions) {
+		this.vendorOptions = vendorOptions;
 	}
 
 }
