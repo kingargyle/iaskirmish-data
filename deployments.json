@@ -3794,7 +3794,7 @@
         "unique": 1,
         "name": "Emporer Palpatine",
         "subtitle": "Sith Master",
-        "deploymentCost": 6,
+        "deploymentCost": 8,
         "reenforcementCost": 0,
         "unitsInGroup": 1,
         "restrictions": [
