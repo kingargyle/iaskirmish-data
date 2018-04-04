@@ -709,7 +709,7 @@
         "elite": 0,
         "type": "deployment",
         "unique": 0,
-        "name": "Fenn Signis",
+        "name": "Alliance Ranger",
         "subtitle": "",
         "deploymentCost": 9,
         "reenforcementCost": 3,
@@ -1886,7 +1886,7 @@
     },
     {
       "deployment": {
-        "iaspecName": "Jyn Odan",
+        "iaspecName": "jynodan",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Core/Jyn%20Odan.png",
         "faction": "rebel",
         "elite": 0,
@@ -2089,13 +2089,13 @@
     },
     {
       "deployment": {
-        "iaspecName": "lokukanola",
+        "iaspecName": "lokukanoloa",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Return%20to%20Hoth/Loku%20Kanoloa.png",
         "faction": "rebel",
         "elite": 0,
         "type": "deployment",
         "unique": 1,
-        "name": "Loku Kanola",
+        "name": "Loku Kanoloa",
         "subtitle": "",
         "deploymentCost": 4,
         "reenforcementCost": 0,
@@ -3786,13 +3786,13 @@
     },
     {
       "deployment": {
-        "iaspecName": "emporerpalpatine",
+        "iaspecName": "emperorpalpatine",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Emperor%20Palpatine/Emperor%20Palpatine.png",
         "faction": "imperial",
         "elite": 1,
         "type": "deployment",
         "unique": 1,
-        "name": "Emporer Palpatine",
+        "name": "Emperor Palpatine",
         "subtitle": "Sith Master",
         "deploymentCost": 8,
         "reenforcementCost": 0,
@@ -7475,7 +7475,7 @@
         "elite": 0,
         "type": "deployment",
         "unique": 0,
-        "name": "Greedo",
+        "name": "Hired Gun",
         "subtitle": "",
         "deploymentCost": 4,
         "reenforcementCost": 2,
@@ -7752,7 +7752,7 @@
     },
     {
       "deployment": {
-        "iaspecName": "punihingstrike",
+        "iaspecName": "punishingstrike",
         "imageurl": "http://tabletopadmiral.com/static/main/images/Dengar/Punishing%20Strike.png",
         "faction": "mercenary",
         "elite": 0,
@@ -8078,21 +8078,6 @@
         "type": "upgrade",
         "unique": 1,
         "name": "Unshakable",
-        "deploymentCost": 1,
-        "reenforcementCost": 0,
-        "unitsInGroup": 0,
-        "health": 0
-      }
-    },
-    {
-      "deployment": {
-        "iaspecName": "unshakeable",
-        "imageurl": "https://vignette.wikia.nocookie.net/imperial-assault/images/a/ae/Unshakable.png",
-        "faction": "any",
-        "elite": 0,
-        "type": "upgrade",
-        "unique": 0,
-        "name": "Unshakeable",
         "deploymentCost": 1,
         "reenforcementCost": 0,
         "unitsInGroup": 0,
